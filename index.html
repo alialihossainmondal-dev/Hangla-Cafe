@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangla Cafe & Family Restaurant | Veg & Non-Veg Restaurant in Sonda P</title>
+    <meta name="description" content="Hangla Cafe and Family Restaurant in Sonda P, West Bengal — serving delicious vegetarian and non-vegetarian food in a welcoming family-friendly setting.">
+    
+    <!-- Google Fonts: Playfair Display & Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-wrapper">
+            <div class="logo">
+                <a href="#home">
+                    <h1>Hangla Cafe</h1>
+                    <span>& Family Restaurant</span>
+                </a>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="tel:8250139665" class="btn btn-outline"><i data-lucide="phone"></i> Call Now</a>
+            </div>
+
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg">
+            <img src="1000394181.jpg" alt="Delicious restaurant spread at Hangla Cafe" loading="lazy">
+            <div class="overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <span class="badge reveal-up">Veg • Non-Veg • Family Restaurant</span>
+            <h1 class="reveal-up delay-1">Good Food.<br>Great Moments.<br>Made for Family.</h1>
+            <p class="reveal-up delay-2">Welcome to Hangla Cafe and Family Restaurant — a warm destination for delicious vegetarian and non-vegetarian food, relaxed dining, and memorable moments with the people you love.</p>
+            
+            <div class="hero-actions reveal-up delay-3">
+                <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+                <a href="tel:8250139665" class="btn btn-secondary">Call Now</a>
+            </div>
+
+            <div class="hero-rating reveal-up delay-4">
+                <div class="stars">★★★★★</div>
+                <div class="rating-text"><strong>4.1 / 5</strong> — 464+ Reviews</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-light">
+        <div class="container about-wrapper">
+            <div class="about-text reveal-left">
+                <h2>A Place for Food, Family & Good Times</h2>
+                <p>Hangla Cafe and Family Restaurant is designed as a welcoming place where people can enjoy both vegetarian and non-vegetarian dishes in a comfortable family environment.</p>
+                <ul class="about-highlights">
+                    <li><i data-lucide="check-circle"></i> Family Friendly</li>
+                    <li><i data-lucide="check-circle"></i> Veg & Non-Veg</li>
+                    <li><i data-lucide="check-circle"></i> Freshly Prepared</li>
+                    <li><i data-lucide="check-circle"></i> Comfortable Dining</li>
+                    <li><i data-lucide="check-circle"></i> Great for Groups</li>
+                </ul>
+            </div>
+            <div class="about-images reveal-right">
+                <img src="1000394179.jpg" alt="Restaurant Interior" class="img-main">
+                <img src="1000394180.jpg" alt="Freshly prepared food" class="img-overlap">
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="features" class="section-padding bg-dark text-light">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card reveal-up">
+                    <i data-lucide="users"></i>
+                    <h3>Family Friendly</h3>
+                    <p>A comfortable environment for families and groups to bond over great meals.</p>
+                </div>
+                <div class="feature-card reveal-up delay-1">
+                    <i data-lucide="utensils"></i>
+                    <h3>Veg & Non-Veg</h3>
+                    <p>A diverse menu experience crafted carefully for different tastes and preferences.</p>
+                </div>
+                <div class="feature-card reveal-up delay-2">
+                    <i data-lucide="chef-hat"></i>
+                    <h3>Delicious Food</h3>
+                    <p>A strict focus on satisfying, highly flavorful, and freshly prepared meals.</p>
+                </div>
+                <div class="feature-card reveal-up delay-3">
+                    <i data-lucide="heart-handshake"></i>
+                    <h3>Warm Hospitality</h3>
+                    <p>A welcoming place to relax, unwind, and truly enjoy your dining experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Menu Section -->
+    <section id="menu" class="section-padding bg-ivory">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Featured Menu</h2>
+                <p>Explore our carefully crafted selection of local favorites and signature dishes.</p>
+            </div>
+
+            <div class="menu-filters reveal-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="veg">Vegetarian</button>
+                <button class="filter-btn" data-filter="non-veg">Non-Vegetarian</button>
+                <button class="filter-btn" data-filter="cafe">Cafe & Snacks</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Non-Veg Item -->
+                <div class="menu-card non-veg reveal-up">
+                    <div class="menu-img">
+                        <img src="1000394175.jpg" alt="Chicken Biriyani Menu">
+                        <span class="type-badge non-veg-badge"></span>
+                    </div>
+                    <div class="menu-content">
+                        <span class="category">Main Course</span>
+                        <h3>Chicken Biriyani</h3>
+                        <p>Authentic, aromatic biriyani cooked with tender chicken pieces and spices.</p>
+                        <div class="price">₹140</div>
+                    </div>
+                </div>
+
+                <!-- Non-Veg Item -->
+                <div class="menu-card non-veg reveal-up delay-1">
+                    <div class="menu-img">
+                        <img src="1000394182.jpg" alt="Chilli Chicken">
+                        <span class="type-badge non-veg-badge"></span>
+                    </div>
+                    <div class="menu-content">
+                        <span class="category">Starters</span>
+                        <h3>Tandoori Chicken</h3>
+                        <p>Classic roasted chicken marinated in yogurt and spices. (Price per piece)</p>
+                        <div class="price">₹130</div>
+                    </div>
+                </div>
+
+                <!-- Veg Item -->
+                <div class="menu-card veg reveal-up delay-2">
+                    <div class="menu-img">
+                        <img src="1000394174.jpg" alt="Veg Noodles Menu">
+                        <span class="type-badge veg-badge"></span>
+                    </div>
+                    <div class="menu-content">
+                        <span class="category">Noodles</span>
+                        <h3>Veg Schezwan Noodles</h3>
+                        <p>Spicy, flavorful noodles tossed with fresh vegetables and Schezwan sauce.</p>
+                        <div class="price">₹120</div>
+                    </div>
+                </div>
+
+                <!-- Combo Item -->
+                <div class="menu-card non-veg reveal-up">
+                    <div class="menu-img">
+                        <img src="1000394173.jpg" alt="Combo Menu">
+                        <span class="type-badge non-veg-badge"></span>
+                    </div>
+                    <div class="menu-content">
+                        <span class="category">Indian Combo</span>
+                        <h3>Basanti Pulao + Chicken Kosa</h3>
+                        <p>Sweet yellow pulao served with 2 pieces of rich chicken kosa and a cold drink.</p>
+                        <div class="price">₹150</div>
+                    </div>
+                </div>
+
+                <!-- Cafe Item -->
+                <div class="menu-card cafe reveal-up delay-1">
+                    <div class="menu-img">
+                        <img src="1000394176.jpg" alt="Beverages Menu">
+                    </div>
+                    <div class="menu-content">
+                        <span class="category">Beverages</span>
+                        <h3>Cold Coffee</h3>
+                        <p>Refreshing, creamy cold blended coffee.</p>
+                        <div class="price">₹90</div>
+                    </div>
+                </div>
+
+                 <!-- Cafe Item -->
+                 <div class="menu-card cafe reveal-up delay-2">
+                    <div class="menu-img">
+                        <img src="1000394176.jpg" alt="Beverages Menu">
+                    </div>
+                    <div class="menu-content">
+                        <span class="category">Lassi</span>
+                        <h3>Dahi Lassi</h3>
+                        <p>Traditional sweet yogurt drink, perfectly chilled.</p>
+                        <div class="price">₹60</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section-padding bg-light">
+        <div class="container">
+            <div class="section-header reveal-up">
+                <h2>Our Atmosphere & Food</h2>
+                <p>A glimpse into the Hangla Cafe experience.</p>
+            </div>
+            
+            <div class="gallery-masonry">
+                <div class="gallery-item reveal-up">
+                    <img src="1000394181.jpg" alt="Full table spread of delicious food">
+                    <div class="gallery-overlay"><i data-lucide="zoom-in"></i></div>
+                </div>
+                <div class="gallery-item reveal-up delay-1">
+                    <img src="1000394179.jpg" alt="Bamboo-themed restaurant interior">
+                    <div class="gallery-overlay"><i data-lucide="zoom-in"></i></div>
+                </div>
+                <div class="gallery-item reveal-up delay-2">
+                    <img src="1000394182.jpg" alt="Spicy glazed chicken starter">
+                    <div class="gallery-overlay"><i data-lucide="zoom-in"></i></div>
+                </div>
+                <div class="gallery-item reveal-up">
+                    <img src="1000394180.jpg" alt="Fresh flatbread and rich curry">
+                    <div class="gallery-overlay"><i data-lucide="zoom-in"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="section-padding bg-ivory">
+        <div class="container">
+            <div class="reviews-header reveal-up">
+                <h2>Loved by Our Guests</h2>
+                <div class="aggregate-rating">
+                    <div class="stars big-stars">★★★★<span class="partial-star">★</span></div>
+                    <h3>4.1 / 5</h3>
+                    <p>Based on <strong>464</strong> genuine reviews</p>
+                </div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card reveal-up">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">“Customer review will appear here. The food quality and ambiance make this place a must-visit for families.”</p>
+                    <div class="reviewer">- Verified Customer</div>
+                </div>
+                <div class="review-card reveal-up delay-1">
+                    <div class="stars">★★★★☆</div>
+                    <p class="review-text">“Customer review will appear here. Great variety of veg and non-veg options, all prepared fresh.”</p>
+                    <div class="reviewer">- Local Guide</div>
+                </div>
+                <div class="review-card reveal-up delay-2">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">“Customer review will appear here. Excellent hospitality and very reasonable prices for the quality.”</p>
+                    <div class="reviewer">- Frequent Visitor</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Contact -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container contact-wrapper">
+            <div class="contact-info reveal-left">
+                <h2>Come Visit Us</h2>
+                <p>We are conveniently located in Sonda P. Drop by for a wonderful dining experience.</p>
+                
+                <div class="info-group">
+                    <i data-lucide="map-pin"></i>
+                    <div>
+                        <strong>Address</strong>
+                        <p>Hangla Cafe and Family Restaurant<br>Sonda P, West Bengal 741103<br>India</p>
+                    </div>
+                </div>
+                
+                <div class="info-group">
+                    <i data-lucide="phone"></i>
+                    <div>
+                        <strong>Phone</strong>
+                        <p><a href="tel:8250139665">8250139665</a></p>
+                    </div>
+                </div>
+
+                <div class="info-group">
+                    <i data-lucide="clock"></i>
+                    <div>
+                        <strong>Dine-In & Takeaway</strong>
+                        <p>Veg & Non-Veg Family Restaurant</p>
+                    </div>
+                </div>
+
+                <a href="#" class="btn btn-outline" style="margin-top: 1rem;">Get Directions</a>
+            </div>
+            
+            <div class="contact-map reveal-right">
+                <!-- Placeholder for Google Maps iframe to maintain performance and layout -->
+                <div class="map-placeholder">
+                    <i data-lucide="map"></i>
+                    <p>Map View of Sonda P, West Bengal 741103</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section text-light">
+        <div class="container text-center reveal-up">
+            <h2>Good Food Is Better Together.</h2>
+            <p>Bring your family, bring your friends, and make your next meal memorable.</p>
+            <div class="cta-buttons">
+                <a href="tel:8250139665" class="btn btn-primary"><i data-lucide="phone"></i> Call 8250139665</a>
+                <a href="#" class="btn btn-secondary">Get Directions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-wrapper">
+            <div class="footer-brand">
+                <h3>Hangla Cafe <span>& Family Restaurant</span></h3>
+                <p>Veg & Non-Veg Family Restaurant</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Sonda P, West Bengal 741103</p>
+                <p>Phone: <a href="tel:8250139665">8250139665</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Hangla Cafe and Family Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox"><i data-lucide="x"></i></span>
+        <img class="lightbox-img" src="" alt="Gallery Full View">
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
