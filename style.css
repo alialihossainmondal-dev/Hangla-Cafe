@@ -581,7 +581,7 @@ nav.scrolled {
 
 /* CTA */
 .cta-section {
-    background: var(--primary) url('1000394179.jpg') center/cover;
+    background: var(--primary) url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80') center/cover;
     position: relative;
     padding: 6rem 0;
 }
@@ -705,17 +705,52 @@ footer {
 }
 
 @media (max-width: 768px) {
+    /* Container & Navigation Fix */
+    .container { padding: 0 1.2rem; }
     .nav-links, .nav-cta { display: none; }
     .mobile-menu-btn { display: block; }
     
+    /* Layout Adjustments */
     .about-wrapper, .contact-wrapper { grid-template-columns: 1fr; }
     .about-images { padding-bottom: 0; margin-top: 2rem; }
     
-    .hero-content h1 { font-size: 2.5rem; }
+    /* Hero Section Mobile Fix (The exact problem area) */
     .hero { text-align: center; }
-    .hero-content { margin: 0 auto; display: flex; flex-direction: column; align-items: center; }
-    .hero-actions { flex-direction: column; width: 100%; max-width: 300px; }
+    .hero-content { 
+        margin: 0 auto; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center;
+        width: 100%;
+        padding: 0 0.5rem; /* Adds breathing room on sides */
+    }
+    .hero-content h1 { 
+        font-size: 2.2rem; /* Scaled down slightly for mobile */
+        margin: 1rem 0;
+        line-height: 1.2;
+    }
+    .hero-content p {
+        font-size: 1rem;
+        padding: 0 0.5rem;
+    }
+    .badge {
+        font-size: 0.7rem; /* Fits better on small screens */
+        padding: 0.5rem 1rem;
+        line-height: 1.4;
+        text-align: center;
+    }
     
+    /* Button Adjustments for Mobile */
+    .hero-actions { 
+        flex-direction: column; 
+        width: 100%; 
+        gap: 0.8rem;
+    }
+    .hero-actions .btn {
+        width: 100%; /* Makes buttons full-width and professional on mobile */
+    }
+    
+    /* Menu & Gallery Adjustments */
     .menu-filters { flex-direction: column; width: 100%; }
     .filter-btn { width: 100%; }
 }
